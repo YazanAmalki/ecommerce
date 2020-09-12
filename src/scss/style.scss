@@ -1,0 +1,65 @@
+@import './old-style.css';
+@import './variables';
+
+.custom-form-control, .custom-btn{
+    color: #868686;
+    border: 1px solid #EBEBEB;
+    box-shadow: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5.5px 13px;
+    transition: all .3s ease;
+}
+
+.custom-btn:hover{
+    background-color: #d4d4d4;
+    border: 1px solid #8c8c8c;
+}
+
+.custom-btn-primary {
+    color: $brand-primary;
+    border-color: $brand-primary;
+    background-color: transparent;
+}
+
+.custom-btn-primary:hover, .custom-btn-primary:focus,
+.custom-btn-primary:active, .custom-btn-primary:active:hover,
+.custom-btn-primary:active:focus {
+    color: $btn-primary-color-dark;
+    border-color: $btn-primary-color-dark;
+    background-color: transparent;
+}
+
+.custom-btn-dager {
+    color: $brand-danger;
+    border-color: $brand-danger;
+    background-color: transparent;
+    border-radius: 3px;
+}
+
+.custom-btn-dager:active, .custom-btn-dager:active:focus,
+.custom-btn-dager:active:hover, .custom-btn-dager:focus, .custom-btn-dager:hover {
+    background: transparent;
+    color: $btn-danger-color-dark;
+    border-color: $btn-danger-color-dark;
+}
+
+.add-to-cart-btn {
+    background-color: #ffffff;
+    color: $brand-secondary;
+    font-weight: bold;
+}
+
+.custom-btn-primary2 {
+    color: white;
+    background-color: $brand-primary;
+    border-color: $brand-primary;
+}
+
+.custom-btn-primary2:hover, .custom-btn-primary2:focus,
+.custom-btn-primary2:active, .custom-btn-primary2:active:hover,
+.custom-btn-primary2:active:focus, .custom-btn-primary2:hover:disabled {
+    border-color: #b86d07;
+    background-color: #b86d07;
+}
+
